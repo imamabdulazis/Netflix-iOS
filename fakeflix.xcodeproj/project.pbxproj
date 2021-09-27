@@ -17,6 +17,7 @@
 		5F639EAC2701A49F0053094D /* StandardHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EAB2701A49F0053094D /* StandardHomeView.swift */; };
 		5F639EAE2701A50E0053094D /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EAD2701A50E0053094D /* GlobalHelpers.swift */; };
 		5F639EB02701A6F20053094D /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EAF2701A6F20053094D /* HomeVM.swift */; };
+		5F639EB22701BB880053094D /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EB12701BB880053094D /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5F639EAB2701A49F0053094D /* StandardHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeView.swift; sourceTree = "<group>"; };
 		5F639EAD2701A50E0053094D /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		5F639EAF2701A6F20053094D /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		5F639EB12701BB880053094D /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				5F639EA0270189040053094D /* HomeView.swift */,
 				5F639EAB2701A49F0053094D /* StandardHomeView.swift */,
+				5F639EB12701BB880053094D /* TopMoviePreview.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				5F639EB02701A6F20053094D /* HomeVM.swift in Sources */,
 				5F639EA1270189040053094D /* HomeView.swift in Sources */,
 				5F3F104626FCA952005E2193 /* ContentView.swift in Sources */,
+				5F639EB22701BB880053094D /* TopMoviePreview.swift in Sources */,
 				5F639EAA2701A3300053094D /* Movie.swift in Sources */,
 				5F3F104426FCA952005E2193 /* fakeflixApp.swift in Sources */,
 			);
