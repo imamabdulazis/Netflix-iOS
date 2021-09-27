@@ -19,6 +19,7 @@
 		5F639EB02701A6F20053094D /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EAF2701A6F20053094D /* HomeVM.swift */; };
 		5F639EB22701BB880053094D /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EB12701BB880053094D /* TopMoviePreview.swift */; };
 		5F639EB42701C0EB0053094D /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EB32701C0EB0053094D /* SmallVerticalButton.swift */; };
+		5F639EB72701C5EB0053094D /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EB62701C5EB0053094D /* WhiteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5F639EAF2701A6F20053094D /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		5F639EB12701BB880053094D /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 		5F639EB32701C0EB0053094D /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
+		5F639EB62701C5EB0053094D /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		5F3F104226FCA952005E2193 /* fakeflix */ = {
 			isa = PBXGroup;
 			children = (
+				5F639EB52701C5D90053094D /* Component */,
 				5F639EA4270189FA0053094D /* Modules */,
 				5F639EA3270189F00053094D /* Common */,
 				5F3F104326FCA952005E2193 /* fakeflixApp.swift */,
@@ -101,9 +104,17 @@
 				5F639EA0270189040053094D /* HomeView.swift */,
 				5F639EAB2701A49F0053094D /* StandardHomeView.swift */,
 				5F639EB12701BB880053094D /* TopMoviePreview.swift */,
-				5F639EB32701C0EB0053094D /* SmallVerticalButton.swift */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		5F639EB52701C5D90053094D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5F639EB32701C0EB0053094D /* SmallVerticalButton.swift */,
+				5F639EB62701C5EB0053094D /* WhiteButton.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				5F639EAA2701A3300053094D /* Movie.swift in Sources */,
 				5F3F104426FCA952005E2193 /* fakeflixApp.swift in Sources */,
 				5F639EB42701C0EB0053094D /* SmallVerticalButton.swift in Sources */,
+				5F639EB72701C5EB0053094D /* WhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

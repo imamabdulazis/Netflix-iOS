@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     var vm = HomeVM()
+    
+    let screen = UIScreen.self.main.bounds
         
     
     var body: some View {
@@ -18,6 +20,11 @@ struct HomeView: View {
         
             // main vstack
             ScrollView {
+                
+                TopMoviePreview(movie: exampleMovie1)
+                    .frame(width: screen.width)
+                    .padding(.top, -110)
+                
                 LazyVStack {
                     ForEach(vm.allCategories, id: \.self) { category in
                         VStack {
