@@ -22,6 +22,7 @@
 		5F639EB72701C5EB0053094D /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EB62701C5EB0053094D /* PlayButton.swift */; };
 		5F639EB92702105F0053094D /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EB82702105F0053094D /* MovieDetail.swift */; };
 		5F639EBF270218120053094D /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F639EBE270218120053094D /* Episode.swift */; };
+		5FFD4026271EC1600065A102 /* CustomTabSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD4025271EC1600065A102 /* CustomTabSwitcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		5F639EB62701C5EB0053094D /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		5F639EB82702105F0053094D /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		5F639EBE270218120053094D /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		5FFD4025271EC1600065A102 /* CustomTabSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabSwitcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				5F639EB32701C0EB0053094D /* SmallVerticalButton.swift */,
 				5F639EB62701C5EB0053094D /* PlayButton.swift */,
+				5FFD4025271EC1600065A102 /* CustomTabSwitcher.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				5F639EB22701BB880053094D /* TopMoviePreview.swift in Sources */,
 				5F639EAA2701A3300053094D /* Movie.swift in Sources */,
 				5F3F104426FCA952005E2193 /* fakeflixApp.swift in Sources */,
+				5FFD4026271EC1600065A102 /* CustomTabSwitcher.swift in Sources */,
 				5F639EB42701C0EB0053094D /* SmallVerticalButton.swift in Sources */,
 				5F639EB72701C5EB0053094D /* PlayButton.swift in Sources */,
 				5F639EB92702105F0053094D /* MovieDetail.swift in Sources */,

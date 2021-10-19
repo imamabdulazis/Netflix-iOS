@@ -12,7 +12,7 @@ import SwiftUI
 let exampleMovie1 = Movie(
     id : UUID().uuidString,
     name: "DARK",
-    thumbnailURL: URL(string: "https://picsum.photos/200/300")!,
+    thumbnailURL: URL(string: "https://i.pinimg.com/474x/e6/45/cf/e645cf822b0480662d1f71aa2cb42f72.jpg")!,
     categories: ["Dystopian","Exciting","Suspenseful","Sci-Fi TV"],
     year: 2020,rating: "TV-MA",
     numberOfSeasons: 1,
@@ -89,4 +89,12 @@ extension LinearGradient{
         gradient:Gradient(colors: [Color.black.opacity(0.0),Color.black.opacity(0.95)]),
         startPoint: .top, endPoint: .bottom
     )
+}
+
+extension String{
+    func widthOfString(usingFont font:UIFont) -> CGFloat{
+        let fontAttributes=[NSAttributedString.Key.font:font]
+        let size = self.size(withAttributes:fontAttributes)
+        return size.width
+    }
 }
